@@ -1,11 +1,11 @@
 import React from 'react'
-import { Menu, Icon, Input } from 'antd';
+import { Menu,Input } from 'antd';
 
 
 const { SubMenu } = Menu;
 const { Search } = Input;
 
-class Menu_bar extends React.Component {
+class MenuBar extends React.Component {
     state = {
         current: 'mail',
       };
@@ -95,4 +95,4 @@ class Menu_bar extends React.Component {
     }
 }
 
-export default Menu_bar
+export default MenuBar

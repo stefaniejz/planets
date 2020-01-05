@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Menu_bar from "./Menu_bar"
+import MenuBar from "./MenuBar"
 import HomePage from "./HomePage"
+import Grid from "./Grid"
 
 function App() {
   return (
     <div className="App">
-      <Menu_bar></Menu_bar>
+      <MenuBar></MenuBar>
       <HomePage></HomePage>
+      <Grid></Grid>
     </div>
   );
 }

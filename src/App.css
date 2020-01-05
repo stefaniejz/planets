@@ -58,7 +58,6 @@
 
 .home-page-img-container {
   position: relative;
-  bottom: 0;
   max-width: 1480px;
   height: auto;
 }
@@ -70,11 +69,19 @@
 
 .home-page-img-text {
   position: absolute;
-  bottom: 40px;
-  right: 1000px;
-  color:rgb(253,251,239);
+  bottom: 30px;
+  left: 100px;
+  color:rgb(238,197,147);
   font-size: 60px;
   font-weight: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+ }
+
+ .column-vertical {
+   border-right: 1px solid;
+ }
+
+ .grid-paragraph {
+   padding:8px;
+   text-align: left;
+   font-size:18px;
  }
