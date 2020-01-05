@@ -40,16 +40,41 @@
 }
 
 .ant-menu-horizontal{
-  font-size: 16px;
+  font-size: 18px;
+  color:rgb(110,110,110);
   border-bottom: 0px;
-  min-height: 35vh;
+  min-height: 10vh;
+  background-color: rgb(1,1,1);
 }
 
 #menu-title {
-  font-size: 20px;
+  font-size: 22px;
   padding-right:500px;
 }
 
 .ant-menu-item-disabled, .ant-menu-submenu-disabled {
   color:rgb(110,110,110) !important
 }
+
+.home-page-img-container {
+  position: relative;
+  bottom: 0;
+  max-width: 1480px;
+  height: auto;
+}
+
+.home-page-img {
+  max-width:100%;
+  height: auto;
+}
+
+.home-page-img-text {
+  position: absolute;
+  bottom: 40px;
+  right: 1000px;
+  color:rgb(253,251,239);
+  font-size: 60px;
+  font-weight: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
