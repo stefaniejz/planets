@@ -4,7 +4,7 @@ import {Row, Col} from 'antd';
 class Grid extends React.Component {
     render () {
         return (
-            <Row>
+            <Row style={{backgroundColor:"rgb(213,213,213)"}}>
                 <Col className='column-vertical' span={12}>
                   <div>
                       <h2>Overview</h2>

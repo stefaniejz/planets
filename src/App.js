@@ -4,6 +4,7 @@ import './App.css';
 import MenuBar from "./MenuBar"
 import HomePage from "./HomePage"
 import Grid from "./Grid"
+import PrimaryColumn from "./PrimaryColumn"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MenuBar></MenuBar>
       <HomePage></HomePage>
       <Grid></Grid>
+      <PrimaryColumn></PrimaryColumn>
     </div>
   );
 }
