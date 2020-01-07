@@ -5,7 +5,7 @@ class Grid extends React.Component {
     render () {
         return (
             <Row style={{backgroundColor:"rgb(213,213,213)"}}>
-                <Col className='column-vertical' span={12}>
+                <Col className='column-vertical' span={12} style={{marginTop:15}}>
                   <div>
                       <h2>Overview</h2>
                   </div>
@@ -17,7 +17,7 @@ class Grid extends React.Component {
                       </p>
                   </div>
                 </Col>
-                <Col span={12}>
+                <Col span={12} style={{marginTop:15}}>
                   <div>
                       <h2>What is a planet?</h2>
                   </div>
