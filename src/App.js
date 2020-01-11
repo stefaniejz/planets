@@ -6,6 +6,7 @@ import HomePage from "./HomePage"
 import Grid from "./Grid"
 import PrimaryColumn from "./PrimaryColumn"
 import ExploreGrid from "./ExploreGrid"
+import MoreDestination from"./MoreDestination"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Grid></Grid>
       <PrimaryColumn></PrimaryColumn>
       <ExploreGrid></ExploreGrid>
+      <MoreDestination></MoreDestination>
     </div>
   );
 }
