@@ -5,6 +5,7 @@ import MenuBar from "./MenuBar"
 import HomePage from "./HomePage"
 import Grid from "./Grid"
 import PrimaryColumn from "./PrimaryColumn"
+import ExploreGrid from "./ExploreGrid"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HomePage></HomePage>
       <Grid></Grid>
       <PrimaryColumn></PrimaryColumn>
+      <ExploreGrid></ExploreGrid>
     </div>
   );
 }

@@ -39,7 +39,7 @@ class PrimaryColumn extends React.Component {
                                 return
                             }
 
-                            return <Row type="flex" justify="space-around" style={{ marginTop: 25 }} >
+                            return <Row type="flex" justify="space-around" style={{ marginTop: 15, marginBottom: 50 }} >
                             <Col span={11} style={{backgroundColor:"rgba(200,200,200)"}}>
                                 <Row>
                                     <Col span={11}>
@@ -70,7 +70,6 @@ class PrimaryColumn extends React.Component {
                 </Col>
             </Row>
            </div>
-
         )
     }
 }
