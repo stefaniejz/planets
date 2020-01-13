@@ -14,19 +14,20 @@ export default class MoreDestination extends React.Component {
     render() {
         const settings = {
           dots: true,
+          dotsClass: "slick-dots slick-thumb",
           infinite: true,
           speed: 500,
           slidesToShow: 3,
           slidesToScroll: 3
         };
         return (
-          <div>
+          <div className="more-destination-section">
             <h2> More Destinations</h2>
-            <Slider {...settings}>
+            <Slider {...settings} >
              {this.state.planets.map((planet,index)=>{
                  return  <div>
-                    <img src={planet.image} style={{width:300}}></img>
-                    <h3>{planet.name}</h3>
+                    <img src={planet.image} style={{width:300, marginLeft:100}}></img>
+                    <h3 style={{color:"white", marginTop:20}}>{planet.name}</h3>
                 </div>
              })}
             </Slider>
