@@ -22,7 +22,7 @@ export default class MoreDestination extends React.Component {
         };
         return (
           <div className="more-destination-section">
-            <h2> More Destinations</h2>
+            <h2 style={{color:"white",padding:30}}> More Destinations</h2>
             <Slider {...settings} >
              {this.state.planets.map((planet,index)=>{
                  return  <div>
