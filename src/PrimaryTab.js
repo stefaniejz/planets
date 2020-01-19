@@ -1,8 +1,7 @@
 import React from 'react'
-import {Row, Col, Breadcrumb} from 'antd';
+import {Row, Col} from 'antd';
 
-class PrimaryColumn extends React.Component {
-
+class PrimaryTab extends React.Component {
     state = {
         planets:[{name:"Mercury", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/2_mercury_480x320_new.jpg", desscription:"Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days."},
         {name:"Venus", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/3_480x320_venus.png", desscription:"Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system."},
@@ -16,24 +15,7 @@ class PrimaryColumn extends React.Component {
 
     render () {
         return (
-           <div className="primary-column"> 
-            <Row >
-                <Col span={24} >
-                    <h1 style={{color:"white", padding:"15px"}}>Planets in Our Solar System</h1>
-                    <div className="breadcrumb">
-                        <Breadcrumb separator="|">
-                            <Breadcrumb.Item>
-                              Primary
-                            </Breadcrumb.Item>
-                            <Breadcrumb.Item>
-                              Dwarf
-                            </Breadcrumb.Item>
-                            <Breadcrumb.Item>
-                              Hypothetical
-                            </Breadcrumb.Item>
-                        </Breadcrumb>
-                    </div>
-                    <div className="primary-subgrid" type="flex" justify="space-around">
+            <div className="primary-subgrid" type="flex" justify="space-around">
                         {this.state.planets.map((planet,index)=>{
                             if (index % 2 === 1) {
                                 return
@@ -67,11 +49,8 @@ class PrimaryColumn extends React.Component {
                          </Row>
                         })}
                     </div>
-                </Col>
-            </Row>
-           </div>
         )
     }
 }
 
-export default PrimaryColumn
+export default PrimaryTab
