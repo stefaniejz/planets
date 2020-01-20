@@ -30,14 +30,14 @@ class PlanetsDescription extends React.Component {
                             </Breadcrumb.Item>
                         </Breadcrumb>
                     </div> */}
-                    <Tabs defaultActiveKey="1" onChange={callback}>
-                        <TabPane tab="Primary" key="1">
+                    <Tabs defaultActiveKey="1" onChange={callback} tabBarGutter={2} size="large"style={{color:"white"}}>
+                        <TabPane tab="Primary" key="1" style={{color:"black"}}>
                         <PrimaryTab></PrimaryTab>
                         </TabPane>
-                        <TabPane tab="Dwarf" key="2">
+                        <TabPane tab="Dwarf" key="2" style={{color:"black"}}>
                         <DwarfTab></DwarfTab>
                         </TabPane>
-                        <TabPane tab="Hypothetical" key="3">
+                        <TabPane tab="Hypothetical" key="3" style={{color:"black"}}>
                         <HypotheticalTab></HypotheticalTab>
                         </TabPane>
                     </Tabs>

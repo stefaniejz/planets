@@ -8,7 +8,6 @@ class HypotheticalTab extends React.Component {
     }
 
     render () {
-        console.log("ssssssssbbbbbbbb")
         return (
             <div className="primary-subgrid" type="flex" justify="space-around">
                 <Row type="flex" justify="space-around" style={{ marginTop: 15, marginBottom: 50 }} >
