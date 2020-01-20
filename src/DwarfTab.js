@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row, Col, Tabs} from 'antd';
+import {Row, Col} from 'antd';
 
 
 class DwarfTab extends React.Component {
