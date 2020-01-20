@@ -1,5 +1,6 @@
 import React from 'react'
 import PrimaryTab from "./PrimaryTab"
+import DwarfTab from "./DwarfTab"
 import {Row, Col, Tabs} from 'antd';
 
 const { TabPane } = Tabs;
@@ -32,8 +33,8 @@ class PlanetsDescription extends React.Component {
                         <TabPane tab="Primary" key="1">
                         <PrimaryTab></PrimaryTab>
                         </TabPane>
-                        <TabPane tab="Tab 2" key="2">
-                        Content of Tab Pane 2
+                        <TabPane tab="Dewarf" key="2">
+                        <DwarfTab></DwarfTab>
                         </TabPane>
                         <TabPane tab="Tab 3" key="3">
                         Content of Tab Pane 3
