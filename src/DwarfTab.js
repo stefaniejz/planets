@@ -2,9 +2,9 @@ import React from 'react'
 import {Row, Col, Tabs} from 'antd';
 
 
-class DewarfTab extends React.Component {
+class DwarfTab extends React.Component {
     state = {
-        dewarf:[{name:"Pluto", image:"https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview", desscription:"Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets."},
+        dwarf:[{name:"Pluto", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/99_pluto_480x320.jpg", desscription:"Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets."},
         {name:"Ceres", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/704_ceres_480x320.jpg", desscription:"Ceres makes up almost a third of the asteroid belt’s total mass, but it is still far smaller than Earth’s Moon. Ceres is heavily cratered with large amounts of ice underground."},
         {name:"Makemake", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/705_makemake_480x320.jpg", desscription:"It takes 310 Earth years for Makemake to complete one orbit around our Sun."},
         {name:"Haumea", image:"https://solarsystem.nasa.gov/system/stellar_items/list_view_images/723_haumea_480x320.jpg", desscription:"Haumea is one of the fastest rotating large objects in our solar system."},
@@ -14,7 +14,7 @@ class DewarfTab extends React.Component {
     render () {
         return (
             <div className="primary-subgrid" type="flex" justify="space-around">
-                        {this.state.dewarf.map((dewarf,index)=>{
+                        {this.state.dwarf.map((dwarf,index)=>{
                             if (index % 2 === 1) {
                                 return
                             }
@@ -23,27 +23,38 @@ class DewarfTab extends React.Component {
                             <Col span={11} style={{backgroundColor:"rgba(200,200,200)"}}>
                                 <Row>
                                     <Col span={11}>
-                                        <img src={dewarf.image}></img>
+                                        <img src={dwarf.image}></img>
                                     </Col>
                                     <Col span={12} style={{padding:"30px",marginLeft:"15px"}}>
-                                        <h3>{dewarf.name}</h3>
+                                        <h3>{dwarf.name}</h3>
                                         <br></br>
-                                        {dewarf.desscription}
+                                        {dwarf.desscription}
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col span={11} style={{backgroundColor:"rgba(200,200,200)"}}>
+                            {
+                                index + 1 < this.state.dwarf.length ? (
+                                    <Col span={11} style={{backgroundColor:"rgba(200,200,200)"}}>
+                                        <Row>
+                                            <Col span={11}>
+                                                <img src={this.state.dwarf[index+1].image}></img>
+                                            </Col>
+                                            <Col span={12} style={{padding:"30px",marginLeft:"15px"}}>
+                                                <h3>{this.state.dwarf[index+1].name}</h3>
+                                                <br></br>
+                                                {this.state.dwarf[index+1].desscription}
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                ) : (<Col span={11} style={{backgroundColor:"rgba(200,200,200,0)"}}>
                                 <Row>
                                     <Col span={11}>
-                                        <img src={this.state.dewarf[index+1].image}></img>
                                     </Col>
                                     <Col span={12} style={{padding:"30px",marginLeft:"15px"}}>
-                                        <h3>{this.state.dewarf[index+1].name}</h3>
-                                        <br></br>
-                                        {this.state.dewarf[index+1].desscription}
                                     </Col>
                                 </Row>
-                            </Col>
+                            </Col>)
+                            }
                          </Row>
                         })}
                     </div>
@@ -51,4 +62,4 @@ class DewarfTab extends React.Component {
     }
 }
 
-export default DewarfTab
+export default DwarfTab

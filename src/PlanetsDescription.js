@@ -33,7 +33,7 @@ class PlanetsDescription extends React.Component {
                         <TabPane tab="Primary" key="1">
                         <PrimaryTab></PrimaryTab>
                         </TabPane>
-                        <TabPane tab="Dewarf" key="2">
+                        <TabPane tab="Dwarf" key="2">
                         <DwarfTab></DwarfTab>
                         </TabPane>
                         <TabPane tab="Tab 3" key="3">
