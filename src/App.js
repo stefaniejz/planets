@@ -7,16 +7,23 @@ import Grid from "./Grid"
 import PlanetsDescription from "./PlanetsDescription"
 import ExploreGrid from "./ExploreGrid"
 import MoreDestination from"./MoreDestination"
+import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
+import MecuryComponent from "./MecuryComponent"
 
 function App() {
   return (
     <div className="App">
-      <MenuBar></MenuBar>
-      <HomePage></HomePage>
-      <Grid></Grid>
-      <PlanetsDescription></PlanetsDescription>
-      <ExploreGrid></ExploreGrid>
-      <MoreDestination></MoreDestination>
+      <Router>
+        <Route exact path={'/'}>
+        <MenuBar></MenuBar>
+        <HomePage></HomePage>
+        <Grid></Grid>
+        <PlanetsDescription></PlanetsDescription>
+        <ExploreGrid></ExploreGrid>
+        <MoreDestination></MoreDestination>
+        </Route>
+        <Route exact path={'/mecury'} component={MecuryComponent} />
+      </Router>
     </div>
   );
 }

@@ -17,19 +17,6 @@ class PlanetsDescription extends React.Component {
             <Row >
                 <Col span={24} >
                     <h1 style={{color:"white", padding:"15px"}}>Planets in Our Solar System</h1>
-                    {/* <div className="breadcrumb">
-                        <Breadcrumb separator="|">
-                            <Breadcrumb.Item onClick={this.handlePrimaryClick}>
-                              Primary
-                            </Breadcrumb.Item>
-                            <Breadcrumb.Item>
-                              Dwarf
-                            </Breadcrumb.Item>
-                            <Breadcrumb.Item>
-                              Hypothetical
-                            </Breadcrumb.Item>
-                        </Breadcrumb>
-                    </div> */}
                     <Tabs defaultActiveKey="1" onChange={callback} tabBarGutter={2} size="large"style={{color:"white"}}>
                         <TabPane tab="Primary" key="1" style={{color:"black"}}>
                         <PrimaryTab></PrimaryTab>
