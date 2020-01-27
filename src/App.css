@@ -143,3 +143,15 @@
   font-weight: 100px;
   text-align: left;
 }
+
+.overview {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align:left;
+  font-size: 30px;
+  min-height: 150vh;
+}
+
+#overview-title{
+  text-align:center;
+}

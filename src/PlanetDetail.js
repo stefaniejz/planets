@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tabs } from 'antd';
+import Overview from './Overview'
 
 const { TabPane } = Tabs;
 
@@ -9,11 +10,13 @@ function callback(key) {
 
 
 
-class PlanetOverview extends React.Component {
+class PlanetDetail extends React.Component {
+
     render() {
         return(
             <Tabs defaultActiveKey="1" onChange={callback}>
                 <TabPane tab="Overview" key="1">
+                  <Overview detail={this.props.detail}></Overview>
                 
                 </TabPane>
                 <TabPane tab="In depth" key="2">
@@ -27,4 +30,4 @@ class PlanetOverview extends React.Component {
     }
 }
 
-export default PlanetOverview
+export default PlanetDetail
