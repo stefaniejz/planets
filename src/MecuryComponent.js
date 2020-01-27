@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuBar from "./MenuBar"
+import PlanetDetail from "./PlanetDetail"
 
 
 class MecuryComponent extends React.Component {
@@ -8,7 +9,7 @@ class MecuryComponent extends React.Component {
         <div className="Mecury">
             <MenuBar></MenuBar>
             <div className="Mecury-page-img-container">
-              <img className="mecury-page-img" style={{width:"100%"}} 
+              <img className="mecury-page-img" style={{width:"relative", height:"100vh"}} 
               src="https://mustlovecrows.com/wp-content/uploads/2019/10/free-intuitive-readings-must-love-crows.jpg">
               </img>
               <div className="mecury-page-img-text-title">
@@ -25,6 +26,7 @@ class MecuryComponent extends React.Component {
                 </p>
               </div>
             </div>
+            <PlanetDetail></PlanetDetail>
         </div>
         
         )
