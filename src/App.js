@@ -9,6 +9,7 @@ import ExploreGrid from "./ExploreGrid"
 import MoreDestination from"./MoreDestination"
 import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import MecuryComponent from "./MecuryComponent"
+import VenusComponent from "./VenusComponent"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <MoreDestination></MoreDestination>
         </Route>
         <Route exact path={'/mecury'} component={MecuryComponent} />
+        <Route exact path={'/venus'} component={VenusComponent} />
       </Router>
     </div>
   );
