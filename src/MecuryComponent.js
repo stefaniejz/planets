@@ -24,7 +24,7 @@ class MecuryComponent extends React.Component {
                 <p>Mecury
                 <br></br>
                 The Swiftest Planet
-                </p>im
+                </p>
               </div>
               <div className="planet-page-img-text-stats">
                 {/* <h4 style={{color:"white"}}>Lenth of year:</h4> */}
