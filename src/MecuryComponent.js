@@ -27,7 +27,6 @@ class MecuryComponent extends React.Component {
                 </p>
               </div>
               <div className="planet-page-img-text-stats">
-                {/* <h4 style={{color:"white"}}>Lenth of year:</h4> */}
                 <p>Lenth of year: 88 earth days
                     <br></br>
                    Planet type: Terrestrial

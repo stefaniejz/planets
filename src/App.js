@@ -10,6 +10,7 @@ import MoreDestination from"./MoreDestination"
 import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import MecuryComponent from "./MecuryComponent"
 import VenusComponent from "./VenusComponent"
+import EarthComponent from "./EarthComponent"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </Route>
         <Route exact path={'/mecury'} component={MecuryComponent} />
         <Route exact path={'/venus'} component={VenusComponent} />
+        <Route exact path={'/earth'} component={EarthComponent} />
       </Router>
     </div>
   );
