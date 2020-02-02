@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import MecuryComponent from "./MecuryComponent"
 import VenusComponent from "./VenusComponent"
 import EarthComponent from "./EarthComponent"
+import MarsComponent from "./MarsComponent"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path={'/mecury'} component={MecuryComponent} />
         <Route exact path={'/venus'} component={VenusComponent} />
         <Route exact path={'/earth'} component={EarthComponent} />
+        <Route exact path={'/mars'} component={MarsComponent} />
       </Router>
     </div>
   );
