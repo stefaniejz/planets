@@ -12,6 +12,7 @@ import MecuryComponent from "./MecuryComponent"
 import VenusComponent from "./VenusComponent"
 import EarthComponent from "./EarthComponent"
 import MarsComponent from "./MarsComponent"
+import JupiterComponent from "./JupiterComponent"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route exact path={'/venus'} component={VenusComponent} />
         <Route exact path={'/earth'} component={EarthComponent} />
         <Route exact path={'/mars'} component={MarsComponent} />
+        <Route exact path={'/jupiter'} component={JupiterComponent} />
       </Router>
     </div>
   );
