@@ -3,7 +3,7 @@ import React from 'react'
 class InDepth extends React.Component{
     render() {
         return(
-            <div className="indepth" >
+            <div className="indepth">
                 <img src={this.props.detail.surface_image}></img>
                 <div className="indepth-description">
                     {this.props.detail.indepth_description.map((description, index)=>{
@@ -62,7 +62,7 @@ class InDepth extends React.Component{
                 </div>
                 <h2>Magnetosphere</h2>
                 <div className="indepth-magnetosphere">
-                    <p>{this.props.detail.Megnetosphere}</p>
+                    <p>{this.props.detail.Magnetosphere}</p>
                 </div>
                 <h2>Moons</h2>
                 <div className="indepth-moons">
