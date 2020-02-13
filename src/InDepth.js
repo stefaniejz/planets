@@ -30,7 +30,11 @@ class InDepth extends React.Component{
                 </div>
                 <h2>Structure</h2>
                 <div className="indepth-structure">
-                    <p>{this.props.detail.structure}</p>
+                    {this.props.detail.structure.map((element, index)=>{
+                            return <div>
+                                <p>{element}</p>
+                            </div>
+                        })}
                 </div>
                 <h2>Formation</h2>
                 <div className="indepth-formation">
@@ -62,11 +66,19 @@ class InDepth extends React.Component{
                 </div>
                 <h2>Magnetosphere</h2>
                 <div className="indepth-magnetosphere">
-                    <p>{this.props.detail.Magnetosphere}</p>
+                    {this.props.detail.Magnetosphere.map((element, index)=>{
+                            return <div>
+                                <p>{element}</p>
+                            </div>
+                        })}
                 </div>
                 <h2>Moons</h2>
                 <div className="indepth-moons">
-                    <p>{this.props.detail.moons}</p>
+                    {this.props.detail.moons.map((element, index)=>{
+                            return <div>
+                                <p>{element}</p>
+                            </div>
+                        })}
                 </div>
                 <h2>Potential for Life</h2>
                 <div className="potential-for-life">
