@@ -159,3 +159,12 @@
 。indepth-description {
   margin:180px
 }
+
+.indepth {
+  text-align: left;
+  font-size: 20px;
+}
+
+.indepth-title {
+  text-align: left;
+}
