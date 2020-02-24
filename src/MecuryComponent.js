@@ -31,7 +31,21 @@ class MecuryComponent extends React.Component {
     atmosphere:["Instead of an atmosphere, Mercury possesses a thin exosphere made up of atoms blasted off the surface by the solar wind and striking meteoroids. Mercury's exosphere is composed mostly of oxygen, sodium, hydrogen, helium and potassium."],
     Magnetosphere:["Mercury's magnetic field is offset relative to the planet's equator. Though Mercury's magnetic field at the surface has just one percent the strength of Earth's, it interacts with the magnetic field of the solar wind to sometimes create intense magnetic tornadoes that funnel the fast, hot solar wind plasma down to the surface of the planet. When the ions strike the surface, they knock off neutrally charged atoms and send them on a loop high into the sky."],
     moons:["Mercury has no moon."],
-    Potential_for_life:"Mercury's environment is not conducive to life as we know it. The temperatures and solar radiation that characterize this planet are most likely too extreme for organisms to adapt to."
+    Potential_for_life:"Mercury's environment is not conducive to life as we know it. The temperatures and solar radiation that characterize this planet are most likely too extreme for organisms to adapt to.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"57,909,227 km",
+    mean_orbit_velocity:"170,503 km/h",
+    orbit_eccentricity:"0.20563593",
+    equatorial_inclination:"0 degree",
+    equatorial_radius:"2,439.7 km",
+    equatorial_circumference:"15,329.1 km",
+    volume:"60,827,208,742 km3",
+    density:"5.427g/cm3",
+    mass:"330,104,000,000,000,000,000,000 kg",
+    surface_area:"74,797,000 km2",
+    surface_gravity:"3.7 m/s2",
+    escape_velocity:"15,300km/h"
   }
 
     render(){

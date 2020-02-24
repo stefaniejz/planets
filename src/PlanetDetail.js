@@ -27,7 +27,7 @@ class PlanetDetail extends React.Component {
                 </TabPane>
                 <TabPane tab="By the number" key="3">
                   <h1>BY THE NUMBER</h1>
-                  <BytheNumber></BytheNumber>
+                  <BytheNumber detail={this.props.detail}></BytheNumber>
                 </TabPane>
                 <TabPane tab="Exploration" key="3">
                 <h1>EXPLORATION</h1>

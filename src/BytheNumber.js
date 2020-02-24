@@ -5,34 +5,21 @@ class BytheNumber extends React.Component{
     render() {
         return(
             <Descriptions layout="vertical" bordered>
-                <Descriptions.Item label="Date of Discovery">Unknown</Descriptions.Item>
-                <Descriptions.Item label="Discovered By">Prepaid</Descriptions.Item>
-                <Descriptions.Item label="Average Orbit Distance">YES</Descriptions.Item>
-                <Descriptions.Item label="Mean Orbit Velocity">2018-04-24 18:00:00</Descriptions.Item>
-                <Descriptions.Item label="Orbit Eccentricity">2019-04-24 18:00:00</Descriptions.Item>
-                <Descriptions.Item label="Equatorial Inclination"><Badge status="processing" text="Running" />
-                </Descriptions.Item>
-                <Descriptions.Item label="Equatorial Radius">$80.00</Descriptions.Item>
-                <Descriptions.Item label="Equatorial Circumference">$20.00</Descriptions.Item>
-                <Descriptions.Item label="Volume">$60.00</Descriptions.Item>
-                <Descriptions.Item label="Density">$60.00</Descriptions.Item>
-                <Descriptions.Item label="Mass">$60.00</Descriptions.Item>
-                <Descriptions.Item label="Surface Gravity">$60.00</Descriptions.Item>
-                <Descriptions.Item label="Escape Velocity">$60.00</Descriptions.Item>
-                {/* <Descriptions.Item label="Config Info">
-                Data disk type: MongoDB
-                <br />
-                Database version: 3.4
-                <br />
-                Package: dds.mongo.mid
-                <br />
-                Storage space: 10 GB
-                <br />
-                Replication factor: 3
-                <br />
-                Region: East China 1<br />
-                </Descriptions.Item> */}
-            </Descriptions>
+                <Descriptions.Item label="Date of Discovery">{this.props.detail.date_of_discovery}</Descriptions.Item>
+                <Descriptions.Item label="Discovered By">{this.props.detail.discovered_by}</Descriptions.Item>
+                <Descriptions.Item label="Average Orbit Distance">{this.props.detail.average_orbit_distance}</Descriptions.Item>
+                <Descriptions.Item label="Mean Orbit Velocity">{this.props.detail.mean_orbit_velocity}</Descriptions.Item>
+                <Descriptions.Item label="Orbit Eccentricity">{this.props.detail.orbit_eccentricity}</Descriptions.Item>
+                <Descriptions.Item label="Equatorial Inclination">{this.props.detail.equatorial_inclination}</Descriptions.Item>
+                <Descriptions.Item label="Equatorial Radius">{this.props.detail.equatorial_radius}</Descriptions.Item>
+                <Descriptions.Item label="Equatorial Circumference">{this.props.detail.equatorial_circumference}</Descriptions.Item>
+                <Descriptions.Item label="Volume">{this.props.detail.volume}</Descriptions.Item>
+                <Descriptions.Item label="Density">{this.props.detail.density}</Descriptions.Item>
+                <Descriptions.Item label="Mass">{this.props.detail.mass}</Descriptions.Item>
+                <Descriptions.Item label="Surface Area">{this.props.detail.surface_area}</Descriptions.Item>
+                <Descriptions.Item label="Surface Gravity">{this.props.detail.surface_gravity}</Descriptions.Item>
+                <Descriptions.Item label="Escape Velocity" span={1}>{this.props.detail.escape_velocity}</Descriptions.Item>
+             </Descriptions>
         )
     }
 }
