@@ -18,7 +18,8 @@ class BytheNumber extends React.Component{
                 <Descriptions.Item label="Mass">{this.props.detail.mass}</Descriptions.Item>
                 <Descriptions.Item label="Surface Area">{this.props.detail.surface_area}</Descriptions.Item>
                 <Descriptions.Item label="Surface Gravity">{this.props.detail.surface_gravity}</Descriptions.Item>
-                <Descriptions.Item label="Escape Velocity" span={1}>{this.props.detail.escape_velocity}</Descriptions.Item>
+                <Descriptions.Item label="Escape Velocity">{this.props.detail.escape_velocity}</Descriptions.Item>
+                <Descriptions.Item label="Atomospheric Constituents">{this.props.detail.atomospheric_constituents}</Descriptions.Item>
              </Descriptions>
         )
     }

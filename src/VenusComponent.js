@@ -31,7 +31,22 @@ class VenusComponent extends React.Component {
     atmosphere:["Venus' atmosphere consists mainly of carbon dioxide, with clouds of sulfuric acid droplets. The thick atmosphere traps the Sun's heat, resulting in surface temperatures higher than 880 degrees Fahrenheit (470 degrees Celsius). The atmosphere has many layers with different temperatures. At the level where the clouds are, about 30 miles up from the surface, it's about the same temperature as on the surface of the Earth. As Venus moves forward in its solar orbit while slowly rotating backwards on its axis, the top level of clouds zips around the planet every four Earth days, driven by hurricane-force winds traveling at about 224 miles (360 kilometers) per hour. Atmospheric lightning bursts light up these quick-moving clouds. Speeds within the clouds decrease with cloud height, and at the surface are estimated to be just a few miles per hour."],
     Magnetosphere:["Even though Venus is similar in size to the Earth and has a similarly-sized iron core, Venus' magnetic field is much weaker than the Earth's due to Venus' slow rotation. "],
     moons:["Venus has no moons."],
-    Potential_for_life:"No human has visited Venus, but the spacecraft that have been sent to the surface of Venus do not last very long there. Venus' high surface temperatures overheat electronics in spacecraft in a short time, so it seems unlikely that a person could survive for long on the Venusian surface. There is speculation about life existing in Venus' distant past, as well as questions about the possibility of life in the top cloud layers of Venus' atmosphere, where the temperatures are less extreme."
+    Potential_for_life:"No human has visited Venus, but the spacecraft that have been sent to the surface of Venus do not last very long there. Venus' high surface temperatures overheat electronics in spacecraft in a short time, so it seems unlikely that a person could survive for long on the Venusian surface. There is speculation about life existing in Venus' distant past, as well as questions about the possibility of life in the top cloud layers of Venus' atmosphere, where the temperatures are less extreme.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"108,209,475 km",
+    mean_orbit_velocity:"126,074 km/h",
+    orbit_eccentricity:"0.00677672",
+    equatorial_inclination:"177.3 degrees (retrograde rotation)",
+    equatorial_radius:"6,051.8 km",
+    equatorial_circumference:"38,024.6 km",
+    volume:"928,415,345,893 km3",
+    density:"5.243 g/cm3",
+    mass:"4,867,320,000,000,000,000,000,000 kg",
+    surface_area:"460,234,317 km2",
+    surface_gravity:"8.87 m/s2",
+    escape_velocity:"37,296 km/h",
+    atomospheric_constituents:"Carbon Dioxide, Nitrogen"
   }
     
     render(){
