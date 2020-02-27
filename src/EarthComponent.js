@@ -31,8 +31,22 @@ class EarthComponent extends React.Component {
     "Earth sometimes temporarily hosts orbiting asteroids or large rocks. They are typically trapped by Earth's gravity for a a few months or years before returning to an orbit around the Sun. Some asteroids will be in a long “dance” with Earth as both orbit the Sun.", 
     "Some moons are bits of rock that were captured by a planet's gravity, but our Moon is likely the result of a collision billions of years ago. When Earth was a young planet, a large chunk of rock smashed into it, displacing a portion of Earth's interior. The resulting chunks clumped together and formed our Moon. With a radius of 1,080 miles (1,738 kilometers), the Moon is the fifth largest moon in our solar system (after Ganymede, Titan, Callisto and Io).",
     "The Moon is farther away from Earth than most people realize. The Moon is an average of 238,855 miles (384,400 kilometers) away. That means 30 Earth-sized planets could fit in between Earth and the Moon."], 
-    Potential_for_life:"Earth has a very hospitable temperature and mix of chemicals that have made life possible here. Most notably, Earth is unique in that most of our planet is covered in water, since the temperature allows liquid water to exist for extended periods of time. Earth's vast oceans provided a convenient place for life to begin about 3.8 billion years ago. Some of the features of our planet that make it great for sustaining life are changing due to the ongoing effects of climate change."
-
+    Potential_for_life:"Earth has a very hospitable temperature and mix of chemicals that have made life possible here. Most notably, Earth is unique in that most of our planet is covered in water, since the temperature allows liquid water to exist for extended periods of time. Earth's vast oceans provided a convenient place for life to begin about 3.8 billion years ago. Some of the features of our planet that make it great for sustaining life are changing due to the ongoing effects of climate change.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"149,598,262 km",
+    mean_orbit_velocity:"107,218 km/h",
+    orbit_eccentricity:"0.01671123",
+    equatorial_inclination:"23.4393 degrees",
+    equatorial_radius:"6,371.00 km",
+    equatorial_circumference:"40,030.2 km",
+    volume:"1,083,206,916,846 km3",
+    density:"5.513 g/cm3",
+    mass:"5,972,190,000,000,000,000,000,000 kg",
+    surface_area:"510,064,472 km2",
+    surface_gravity:"9.80665 m/s2",
+    escape_velocity:"40,284 km/h",
+    atomospheric_constituents:"Nitrogen, Oxygen"
   }
     
     render(){

@@ -45,7 +45,8 @@ class MecuryComponent extends React.Component {
     mass:"330,104,000,000,000,000,000,000 kg",
     surface_area:"74,797,000 km2",
     surface_gravity:"3.7 m/s2",
-    escape_velocity:"15,300km/h"
+    escape_velocity:"15,300km/h",
+    atomospheric_constituents:""
   }
 
     render(){
