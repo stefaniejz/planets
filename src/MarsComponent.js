@@ -33,7 +33,22 @@ class MarsComponent extends React.Component {
     'The moons get their names from the horses that pulled the chariot of the Greek god of war, Ares. In ancient Greek, Phobos means "flight," and Deimos means "fear."',
     "Phobos, the innermost and larger moon, is heavily cratered, with deep grooves on its surface. It is slowly moving towards Mars and will crash into the planet or break apart in about 50 million years.",
     "Deimos is about half as big as Phobos and orbits two and a half times farther away from Mars. Oddly-shaped Deimos is covered in loose dirt that often fills the craters on its surface, making it appear smoother than pockilometersarked Phobos."],
-    Potential_for_life:"Scientists don't expect to find living things currently thriving on Mars. Instead, they're looking for signs of life that existed long ago, when Mars was warmer and covered with water."
+    Potential_for_life:"Scientists don't expect to find living things currently thriving on Mars. Instead, they're looking for signs of life that existed long ago, when Mars was warmer and covered with water.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"227,943,824 km",
+    mean_orbit_velocity:"86,677 km/h",
+    orbit_eccentricity:"0.0933941",
+    equatorial_inclination:"25.2",
+    equatorial_radius:"3,389.5 km",
+    equatorial_circumference:"21,296.9 km",
+    volume:"163,115,609,799 km3",
+    density:"3.934 g/cm3",
+    mass:"641,693,000,000,000,000,000,000 kg",
+    surface_area:"144,371,391 km2",
+    surface_gravity:"3.71 m/s2",
+    escape_velocity:"18,108 km/h",
+    atomospheric_constituents:"Carbon Dioxide, Nitrogen, Argon"
   }
     
     render(){
