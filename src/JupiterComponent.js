@@ -28,7 +28,22 @@ class JupiterComponent extends React.Component {
     "Jupiter's magnetic field also causes some of the solar system's most spectacular aurorae at the planet's poles."],
     moons:["With four large moons and many smaller moons, Jupiter forms a kind of miniature solar system. Jupiter has 53 confirmed moons and 26 provisional moons awaiting confirmation of discovery. Moons are named after they are confirmed.",
     "Jupiter's four largest moons—Io, Europa, Ganymede and Callisto—were first observed by the astronomer Galileo Galilei in 1610 using an early version of the telescope. These four moons are known today as the Galilean satellites, and they're some of the most fascinating destinations in our solar system. Io is the most volcanically active body in the solar system. Ganymede is the largest moon in the solar system (even bigger than the planet Mercury). Callisto’s very few small craters indicate a small degree of current surface activity. A liquid-water ocean with the ingredients for life may lie beneath the frozen crust of Europa, making it a tempting place to explore."],
-    Potential_for_life:"Jupiter’s environment is probably not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to. While planet Jupiter is an unlikely place for living things to take hold, the same is not true of some of its many moons. Europa is one of the likeliest places to find life elsewhere in our solar system. There is evidence of a vast ocean just beneath its icy crust, where life could possibly be supported."
+    Potential_for_life:"Jupiter’s environment is probably not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to. While planet Jupiter is an unlikely place for living things to take hold, the same is not true of some of its many moons. Europa is one of the likeliest places to find life elsewhere in our solar system. There is evidence of a vast ocean just beneath its icy crust, where life could possibly be supported.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"778,340,821 km",
+    mean_orbit_velocity:"47,002 km/h",
+    orbit_eccentricity:"0.04838624",
+    equatorial_inclination:"3.1 degrees",
+    equatorial_radius:"69,911 km",
+    equatorial_circumference:"439,263.8 km",
+    volume:"1,431,281,810,739,360 km3",
+    density:"1.326 g/cm3",
+    mass:"641,693,000,000,000,000,000,000 kg",
+    surface_area:"61,418,738,571 km2",
+    surface_gravity:"24.79 m/s2",
+    escape_velocity:"216,720 km/h",
+    atomospheric_constituents:"Hydrogen, Helium"
   }
     
     render(){
