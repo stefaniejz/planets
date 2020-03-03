@@ -35,7 +35,22 @@ class UranusComponent extends React.Component {
     "The magnetosphere tail behind Uranus opposite the Sun extends into space for millions of miles. Its magnetic field lines are twisted by Uranus’ sideways rotation into a long corkscrew shape."],
     moons:["Uranus has 27 known moons. While most of the satellites orbiting other planets take their names from Greek or Roman mythology, Uranus' moons are unique in being named for characters from the works of William Shakespeare and Alexander Pope.",
     "All of Uranus' inner moons appear to be roughly half water ice and half rock. The composition of the outer moons remains unknown, but they are likely captured asteroids."],
-    Potential_for_life:"Uranus' environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to."
+    Potential_for_life:"Uranus' environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to.",
+    date_of_discovery:"13 March 1781",
+    discovered_by:"William Herschel",
+    average_orbit_distance:"2,870,658,186 km",
+    mean_orbit_velocity:"24,477 km/h",
+    orbit_eccentricity:"0.047257449",
+    equatorial_inclination:"97.8 degrees (retrograde rotation)",
+    equatorial_radius:"25,362 km",
+    equatorial_circumference:"159,354.1 km",
+    volume:"68,334,355,695,584 km3",
+    density:"1.270 g/cm3",
+    mass:"86,810,300,000,000,000,000,000,000 kg",
+    surface_area:"8,083,079,690 km2",
+    surface_gravity:"8.87 m/s2",
+    escape_velocity:"76,968 km/h",
+    atomospheric_constituents:"Hydrogen, Helium, Methane"
     }
     
     render(){
