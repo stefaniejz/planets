@@ -28,7 +28,22 @@ class SaturnComponent extends React.Component {
     Magnetosphere:["Saturn's magnetic field is smaller than Jupiter's but still 578 times as powerful as Earth's. Saturn, the rings, and many of the satellites lie totally within Saturn's enormous magnetosphere, the region of space in which the behavior of electrically charged particles is influenced more by Saturn's magnetic field than by the solar wind.",
     "Aurorae occur when charged particles spiral into a planet's atmosphere along magnetic field lines. On Earth, these charged particles come from the solar wind. Cassini showed that at least some of Saturn's aurorae are like Jupiter's and are largely unaffected by the solar wind. Instead, these aurorae are caused by a combination of particles ejected from Saturn's moons and Saturn's magnetic field's rapid rotation rate. But these non-solar-originating aurorae are not completely understood yet."],
     moons:["Saturn is home to a vast array of intriguing and unique worlds. From the haze-shrouded surface of Titan to crater-riddled Phoebe, each of Saturn's moons tells another piece of the story surrounding the Saturn system. Currently Saturn has 53 confirmed moons with 29 additional provisional moons awaiting confirmation."],
-    Potential_for_life:"Saturn's environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to. While planet Saturn is an unlikely place for living things to take hold, the same is not true of some of its many moons. Satellites like Enceladus and Titan, home to internal oceans, could possibly support life."}
+    Potential_for_life:"Saturn's environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to. While planet Saturn is an unlikely place for living things to take hold, the same is not true of some of its many moons. Satellites like Enceladus and Titan, home to internal oceans, could possibly support life.",
+    date_of_discovery:"Unknown",
+    discovered_by:"Known by Ancients",
+    average_orbit_distance:"1,426,666,422 km",
+    mean_orbit_velocity:"34,701 km/h",
+    orbit_eccentricity:"0.05386179",
+    equatorial_inclination:"26.7 degrees",
+    equatorial_radius:"58,232 km",
+    equatorial_circumference:"365,882.4 km",
+    volume:"827,129,915,150,897 km3",
+    density:"0.687 g/cm3",
+    mass:"568,319,000,000,000,000,000,000,000 kg",
+    surface_area:"42,612,133,285 km2",
+    surface_gravity:"10.4 m/s2",
+    escape_velocity:"129,924 km/h",
+    atomospheric_constituents:"Hydrogen, Helium"}
     
     render(){
         return(
