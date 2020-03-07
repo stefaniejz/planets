@@ -29,7 +29,22 @@ class NeptuneComponent extends React.Component {
     Magnetosphere:["The main axis of Neptune's magnetic field is tipped over by about 47 degrees compared with the planet's rotation axis. Like Uranus, whose magnetic axis is tilted about 60 degrees from the axis of rotation, Neptune's magnetosphere undergoes wild variations during each rotation because of this misalignment. The magnetic field of Neptune is about 27 times more powerful than that of Earth.​"],
     moons:["Neptune has 14 known moons. Neptune's largest moon Triton was discovered on October 10, 1846, by William Lassell, just 17 days after Johann Gottfried Galle discovered the planet. Since Neptune was named for the Roman god of the sea, its moons are named for various lesser sea gods and nymphs in Greek mythology.",
     "Triton is the only large moon in the solar system that circles its planet in a direction opposite to the planet's rotation (a retrograde orbit), which suggests that it may once have been an independent object that Neptune captured. Triton is extremely cold, with surface temperatures around minus 391 degrees Fahrenheit (minus 235 degrees Celsius). And yet, despite this deep freeze at Triton, Voyager 2 discovered geysers spewing icy material upward more than 5 miles (8 kilometers). Triton's thin atmosphere, also discovered by Voyager, has been detected from Earth several times since, and is growing warmer, but scientists do not yet know why."],
-    Potential_for_life:"Neptune's environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to."
+    Potential_for_life:"Neptune's environment is not conducive to life as we know it. The temperatures, pressures and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to.",
+    date_of_discovery:"23 September 1846",
+    discovered_by:"Urbain Le Verrier, John Couch Adams, Johann Galle",
+    average_orbit_distance:"4,498,396,441km",
+    mean_orbit_velocity:"19,566km/h",
+    orbit_eccentricity:"0.00859048",
+    equatorial_inclination:"28.3 degrees",
+    equatorial_radius:"24,622 km",
+    equatorial_circumference:"154,704.6 km",
+    volume:"62,525,703,987,421 km3",
+    density:"1.638 g/cm3",
+    mass:"102,410,000,000,000,000,000,000,000 kg",
+    surface_area:"7,618,272,763 km2",
+    surface_gravity:"11.15 m/s2",
+    escape_velocity:"84,816 km/h",
+    atomospheric_constituents:"Hydrogen, Helium, Methane"
 }
     
     render(){
