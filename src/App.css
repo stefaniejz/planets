@@ -168,3 +168,22 @@
 .indepth-title {
   text-align: left;
 }
+
+.exploration {
+  text-align: left;
+}
+
+.exploration-text {
+  margin-top: 50px;
+  margin-left:180px;
+  margin-right:180px;
+  margin-bottom:50px;
+  font-size: 20px;
+}
+
+.exploration-events {
+  margin-left:300px;
+  margin-right:300px;
+  margin-bottom:50px;
+  font-size: 20px;
+}
