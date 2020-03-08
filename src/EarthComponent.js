@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuBar from "./MenuBar"
 import PlanetDetail from "./PlanetDetail"
+import MoreDestination from './MoreDestination'
 
 class EarthComponent extends React.Component {
     state = {name:"Earth",
@@ -71,6 +72,7 @@ class EarthComponent extends React.Component {
               </div>
             </div>
             <PlanetDetail detail={this.state}></PlanetDetail>
+            <MoreDestination></MoreDestination>
         </div>
         
         )
