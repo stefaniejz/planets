@@ -47,7 +47,18 @@ class MecuryComponent extends React.Component {
     surface_area:"74,797,000 km2",
     surface_gravity:"3.7 m/s2",
     escape_velocity:"15,300km/h",
-    atomospheric_constituents:""
+    atomospheric_constituents:"",
+    exploration:["Because Mercury is so close to the Sun, it is hard to directly observe from Earth except during dawn or twilight, when the Sun's brightness doesn't outshine little Mercury. However, 13 times each century, observers on Earth can watch Mercury pass across the face of the Sun, an event called a transit. These rare transits fall within several days of 8 May and 10 November. The first transits of Mercury in the 21st century occurred May 7, 2003, Nov. 8, 2006, and May 9, 2016. The next one will be Nov. 11, 2019.",
+    "The first spacecraft to visit Mercury was Mariner 10, which imaged about 45 percent of the surface. And the MESSENGER spacecraft flew by Mercury three times and orbited the planet for four years before crashing on its surface. The European Space Agency launched their first mission to explore Mercury—BepiColombo—in 2018."],
+    significant_evets:["1631: Thomas Harriott and Galileo Galilei observe Mercury with the newly invented telescope.",
+    "​1631: Pierre Gassendi uses a telescope to watch from Earth as Mercury crosses the face of the Sun.",
+    "1965: Incorrectly believing for centuries that the same side of Mercury always faces the Sun, astronomers using radar find that the planet rotates three times for every two orbits.",
+    "1974-1975: Mariner 10 photographs roughly half of Mercury's surface during three flybys.",
+    "1991: Scientists using Earth-based radar find signs of ice locked in permanently shadowed areas of craters in Mercury's polar regions.",
+    "2008-2009: MESSENGER observes Mercury during three flybys.",
+    "2011: MESSENGER begins its orbital mission at Mercury, yielding a treasure trove of images, compositional data and scientific discoveries.",
+    "2015: MESSENGER is deliberately crashed into Mercury after expending all its propellant, ending its mission.",
+    "2018: BepiColombo launches with a target date for Mercury orbit insertion of 2025."]
   }
 
     render(){
@@ -72,7 +83,7 @@ class MecuryComponent extends React.Component {
               </div>
             </div>
             <PlanetDetail detail={this.state}></PlanetDetail>
-            <MoreDestination></MoreDestination>
+            <MoreDestination detail = {this.state}></MoreDestination>
         </div>
         
         )

@@ -3,6 +3,7 @@ import { Tabs } from 'antd';
 import Overview from './Overview'
 import InDepth from './InDepth'
 import BytheNumber from './BytheNumber';
+import Exploration from './Exploration'
 
 const { TabPane } = Tabs;
 
@@ -29,8 +30,9 @@ class PlanetDetail extends React.Component {
                   <h1>BY THE NUMBER</h1>
                   <BytheNumber detail={this.props.detail}></BytheNumber>
                 </TabPane>
-                <TabPane tab="Exploration" key="3">
+                <TabPane tab="Exploration" key="4">
                 <h1>EXPLORATION</h1>
+                  <Exploration detail= {this.props.detail}></Exploration>
                 </TabPane>
           </Tabs>
         )
