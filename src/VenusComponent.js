@@ -47,8 +47,11 @@ class VenusComponent extends React.Component {
     surface_area:"460,234,317 km2",
     surface_gravity:"8.87 m/s2",
     escape_velocity:"37,296 km/h",
-    atomospheric_constituents:"Carbon Dioxide, Nitrogen"
-  }
+    atomospheric_constituents:"Carbon Dioxide, Nitrogen",
+    exploration:["The brightest object in the night sky on Earth (besides our moon), Venus has been observed for millennia. And as one of just two bodies between Earth and the Sun, Venus periodically passes across the face of the sun—a phenomenon called a transit. Observing transits of Venus has helped astronomers study the nearby planet and better understand the solar system and our place in it. Transits of Venus occur in pairs with more than a century separating each pair, occurring in 1631 and 1639; 1761, 1769; 1874, 1882; and 2004, 2012. The next transit isn't until December 2117. Such long gaps occur between transits because Earth's and Venus' orbits around the sun are inclined differently, so Venus much more often passes between Earth and the sun without crossing the face of the sun from our perspective.",
+    "Spacecraft from several nations have visited Venus, including the Soviet Union’s successful Venera series made the first landings on the surface of Venus. NASA’s Magellan mission, which studied Venus from 1990 to 1994, used radar to map 98 percent of the planet’s surface. Currently, Japan’s Akatsuki is studying Venus from orbit.​"],
+    significant_events:[]
+    }
     
     render(){
         return(

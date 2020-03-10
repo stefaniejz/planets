@@ -12,7 +12,7 @@ class Exploration extends React.Component {
                     })}
                 </div>
                 <div className="exploration-events">
-                    {this.props.detail.significant_evets.map((event, index)=>{
+                    {this.props.detail.significant_events.map((event, index)=>{
                         return <div>
                             <p>{event}</p>
                             </div>
