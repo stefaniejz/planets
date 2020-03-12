@@ -47,7 +47,9 @@ class EarthComponent extends React.Component {
     surface_area:"510,064,472 km2",
     surface_gravity:"9.80665 m/s2",
     escape_velocity:"40,284 km/h",
-    atomospheric_constituents:"Nitrogen, Oxygen"
+    atomospheric_constituents:"Nitrogen, Oxygen",
+    exploration:["Earth is made up of complex, interactive systems that create a constantly changing world that we are striving to understand. From the vantage point of space, we are able to observe our planet globally, using sensitive instruments to understand the delicate balance among its oceans, air, land and life. NASA satellite observations help study and predict weather, drought, pollution, climate change, and many other phenomena that affect the environment, economy and society."],
+    significant_events:[]
   }
     
     render(){
