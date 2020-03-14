@@ -49,7 +49,25 @@ class MarsComponent extends React.Component {
     surface_area:"144,371,391 km2",
     surface_gravity:"3.71 m/s2",
     escape_velocity:"18,108 km/h",
-    atomospheric_constituents:"Carbon Dioxide, Nitrogen, Argon"
+    atomospheric_constituents:"Carbon Dioxide, Nitrogen, Argon",
+    exploration:[""],
+    significant_events:["Mars Cube One(MarCO) May 15,2018: The twin MarCO spacecraft demonstrated the ability of CubeSats to operate far beyond Earth.",
+    "phoenix August 4,2007: Phoenix was sent to Mars to search for evidence of past or present microbial life and to study geology and climate on the icy arctic plains of the Martian north pole.",
+    "Opportunity July 6,2003: Opportunity vastly surpassed all expectations in its endurance, scientific value and longevity.",
+    "Spirit June 10,2003: NASA's Mars Exploration Rovers—Opportunity and its twin Spirit—were designed to study the history of climate and water at sites on Mars where conditions may once have been favorable to life.",
+    "Mars Polar Lander and Deep Space 2 January 3,1999: Mars Polar Lander and Deep Space 2 were to explore the Martian ice cap.",
+    "Mars Climate Orbiter December 11,1998:Mars Climate Orbiter was to study the Martian atmosphere, climate and surface, but contact was lost on arrival at Mars.",
+    "Mars Pathfinder December 4,1996:Mars Pathfinder was the first rover to successfully land on another planet and the first rover on Mars.",
+    "Mars Global Surveyor Nobember 7, 1996:Mars Global Surveyor overhauled our understanding of Mars, including finding evidence water still flows in short bursts down hillside gullies",
+    "Mars Observer September 25,1992: Mars Observer was to be a high-resolution photography mission, but contact was lost shortly before it arrived at Mars.",
+    "Viking 1 August 20,1975: Viking 1 was the first successful mission to land on Mars (the Soviet Mars 3 lander survived for a few seconds after landing in 1971, but sent back no science data).",
+    "Viking 2 August 20,1975: The Viking 2 lander set down on Utopia Planitia and operated until April 1980.",
+    "Mariner 09 May 30,1971: Mariner 9 was the second in a pair of identical spacecraft launched in 1971 to orbit Mars. The first spacecraft, Mariner 8, failed to reach Earth orbit.",
+    "Mariner 08 May 09,1971: Mariner 8 (also called Mariner-71H and Mariner-H) was the first of a pair of American spacecraft intended to explore the physical and dynamic characteristics of Mars from Martian orbit.",
+    "Mariner 07 March 27,1969:Identical to Mariner 6, Mariner 7 had a similar mission of flying by Mars.",
+    "Mariner 06 Feburary 25,1969: Mariners 6 and 7, identical spacecraft intended to fly by Mars, were the first Mariner spacecraft launched by the Atlas-Centaur, permitting a heavier instrument suite.",
+    "Mariner 04 November 28,1964: The Mariner 4 mission, the second of two Mars flyby attempts in 1964 by NASA, was one of the great early successes of the Agency, returning the very first photos of another planet from deep space.",
+    "Mariner 03 November 5,1964: NASA approved two probes for the Mariner-Mars 1964 project in November 1962."]
   }
     
     render(){
