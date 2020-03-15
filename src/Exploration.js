@@ -12,6 +12,7 @@ class Exploration extends React.Component {
                     })}
                 </div>
                 <div className="exploration-events">
+                    <h2 style={{textAlignLast:"center"}}>significant events</h2>
                     {this.props.detail.significant_events.map((event, index)=>{
                         return <div>
                             <p>{event}</p>

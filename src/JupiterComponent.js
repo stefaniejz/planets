@@ -44,7 +44,20 @@ class JupiterComponent extends React.Component {
     surface_area:"61,418,738,571 km2",
     surface_gravity:"24.79 m/s2",
     escape_velocity:"216,720 km/h",
-    atomospheric_constituents:"Hydrogen, Helium"
+    atomospheric_constituents:"Hydrogen, Helium",
+    exploration:["While Jupiter has been known since ancient times, the first detailed observations of this planet were made by Galileo Galilei in 1610 with a small telescope. More recently, this planet has been visited by passing spacecraft, orbiters and probes.",
+    "Pioneer 10 and 11 and Voyager 1 and 2 were the first to fly by Jupiter in the 1970s, and since then we’ve sent Galileo to orbit the gas giant and drop a probe into its atmosphere. Cassini took detailed photos of Jupiter on its way to neighboring Saturn, as did New Horizons on its quest for Pluto and the Kuiper Belt. NASA’s Juno spacecraft, which arrived in the Jovian system in July 2016, is currently studying the giant planet from orbit."],
+    significant_events:["1610: Galileo Galilei makes the first detailed observations of Jupiter.",
+    "1973: Pioneer 10 becomes the first spacecraft to cross the asteroid belt and fly past Jupiter.",
+    "1979: Voyager 1 and 2 discover Jupiter's faint rings, several new moons and volcanic activity on Io's surface.",
+    "1992: Ulysses swung by Jupiter on Feb. 8, 1992. The giant planet's gravity bent the spacecraft's flight path southward and away from the ecliptic plane, putting the probe into a final orbit that would take it over the sun's south and north poles.",
+    "1994: Astronomers observe as pieces of comet Shoemaker-Levy 9 collide with Jupiter's southern hemisphere.",
+    "1995-2003: The Galileo spacecraft drops a probe into Jupiter's atmosphere and conducts extended observations of Jupiter and its moons and rings.",
+    "2000: Cassini makes its closest approach to Jupiter at a distance of approximately 6.2 million miles (10 million kilometers), taking a highly detailed true color mosaic photo of the gas giant.",
+    "2007: Images taken by NASA's New Horizons spacecraft, on the way to Pluto, show new perspectives on Jupiter's atmospheric storms, the rings, volcanic Io, and icy Europa.",
+    "2009: On 20 July, almost exactly 15 years after fragments of comet Shoemaker-Levy slammed into Jupiter, a comet or asteroid crashes into the giant planet's southern hemisphere.",
+    "2011: Juno launches to examine Jupiter's chemistry, atmosphere, interior structure and magnetosphere.",
+    "2016: NASA's Juno spacecraft arrives at Jupiter, conducting an in-depth investigation of the planet's atmosphere, deep structure and magnetosphere for clues to its origin and evolution."]
   }
     
     render(){
