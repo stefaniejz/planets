@@ -44,7 +44,11 @@ class SaturnComponent extends React.Component {
     surface_area:"42,612,133,285 km2",
     surface_gravity:"10.4 m/s2",
     escape_velocity:"129,924 km/h",
-    atomospheric_constituents:"Hydrogen, Helium"}
+    atomospheric_constituents:"Hydrogen, Helium",
+    exploration:["Saturn is the sixth planet from the Sun and the second largest planet in our solar system.",
+    "Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's.",
+    "Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium."],
+    significant_events:[]}
     
     render(){
         return(
