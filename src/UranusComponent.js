@@ -51,7 +51,18 @@ class UranusComponent extends React.Component {
     surface_area:"8,083,079,690 km2",
     surface_gravity:"8.87 m/s2",
     escape_velocity:"76,968 km/h",
-    atomospheric_constituents:"Hydrogen, Helium, Methane"
+    atomospheric_constituents:"Hydrogen, Helium, Methane",
+    exploration:["Only one spacecraft has visited distant Uranus. After traveling more than 1.8 billion miles (3 billion kilometers) in nine years, NASA's Voyager 2 gathered much of its critical information about the mysterious planet, including its rings and moons, in just six hours.",
+    "The rest of what we know about Uranus comes from observations via the Hubble Space Telescope and several powerful ground-based telescopes."],
+    significant_events:["Mar. 13, 1781: British astronomer William Herschel discovers Uranus—the first new planet discovered since ancient times - while searching for faint stars.",
+    "1787-1851: Four Uranian moons are discovered and named Titania, Oberon, Ariel and Umbriel.",
+    "1948: Another moon, Miranda, is discovered.",
+    "Mar. 10, 1977: While observing Uranus' passing in front of a distant star (SAO 158687), scientists at the Kuiper Airborne Observatory and the Perth Observatory in Australia were eager for a rare chance to observe the distant planet. Observations before and after the main event led to a major discovery: Uranus, like Saturn, is encircled with rings.",
+    "Jan. 24, 1986: NASA's Voyager 2 made the first - and so far the only - visit to Uranus. The spacecraft came within 50,600 miles (81,500 kilometers) of the planet's cloud tops. Voyager discovered 10 new moons, two new rings and a magnetic field stronger than that of Saturn.",
+    "Dec. 22, 2005: NASA announces the discovery of a new pair of rings around Uranus and two new, small moons (Mab and Cupid) orbiting the planet from photographs taken by the Hubble Space Telescope. The largest ring discovered by Hubble is twice the diameter of the planet's previously known rings.",
+    "2006: Observations made at the Keck Observatory and by the Hubble Space Telescope show that Uranus' outer ring is colored blue while the new inner ring is reddish.",
+    "Dec. 2007: Uranus reaches equinox. Equinox is when the planet is fully illuminated as the Sun passes over its equator. Equinox also brings a ring-plane crossing, when Uranus' rings appear to get narrower as they pass through, appearing edge-on and then widen again as seen from Earth.",
+    "Mar. 18, 2011: New Horizons passes the orbit of Uranus on its way to Pluto, becoming the first spacecraft to journey beyond Uranus' orbit since Voyager 2. However, Uranus was not near the crossing point. The spacecraft is asleep during most of its eight-year interplanetary trek from Jupiter to Pluto. Mission controllers do wake up New Horizons for 50 days each year to perform necessary checkups on its instruments."]
     }
     
     render(){
