@@ -45,7 +45,20 @@ class NeptuneComponent extends React.Component {
     surface_area:"7,618,272,763 km2",
     surface_gravity:"11.15 m/s2",
     escape_velocity:"84,816 km/h",
-    atomospheric_constituents:"Hydrogen, Helium, Methane"
+    atomospheric_constituents:"Hydrogen, Helium, Methane",
+    exploration:["Galileo recorded Neptune as a fixed star during observations with his small telescope in 1612 and 1613. More than 200 years later, the ice giant Neptune became the first planet located through mathematical predictions rather than through regular observations of the sky. Because Uranus didn't travel exactly as astronomers expected it to, French mathematician Urbain Joseph Le Verrier proposed the position and mass of a then-unknown planet that could cause the observed changes to Uranus' orbit. Le Verrier sent his predictions to Johann Gottfried Galle at the Berlin Observatory, who found Neptune on his first night of searching in 1846. Seventeen days later, Neptune's largest moon Triton was discovered as well.",
+    "More than 140 years later, in 1989, NASA's Voyager 2 became the first-and only-spacecraft to study Neptune up close. Voyager returned a wealth of information about Neptune and its moons-and confirmed evidence the giant world had faint rings like the other gas planets. Scientists also use the Hubble Space Telescope and powerful ground-based telescopes to gather more information about this distant planet."],
+    significant_events:["1612: Galileo incorrectly records Neptune as a fixed star during observations with his small telescope.",
+    "1846: Using mathematical calculations, astronomers discover Neptune, increasing the number of known planets to eight. Neptune's largest moon, Triton, is found the same year.",
+    "1983: Pioneer 10 crosses the orbit of Neptune and becomes the first human-made object to travel beyond the orbits of the planets of our solar system. The spacecraft remains on a trajectory heading towards the red star Aldebaran (in the constellation Taurus) and is expected to pass by it in about 2,000,000 years.",
+    "1984: Astronomers find evidence for the existence of a ring system around Neptune.",
+    "1989: Voyager 2 becomes the first and only spacecraft to visit Neptune, passing about 4,800 kilometers (2,983 miles) above the planet's north pole.",
+    "2002: Using improved observing techniques, astronomers discover four new moons orbiting Neptune: Laomedia, Neso, Sao and Halimede.",
+    "2003: Another moon, Psamathe, is discovered using ground-based telescopes.",
+    "2005: Scientists using the Keck Observatory take images of the outer rings and find that some of the ring arcs have deteriorated.",
+    "2011: Neptune completes its first 165-year orbit of the sun since its discovery in 1846.",
+    "2013: A scientist studying Neptune's ring arcs in archival Hubble Space Telescope images finds a previously unknown 14th moon of Neptune, provisionally designated S/2004 N 1.",
+    "2016: Scientists using the Hubble Space Telescope discover a new dark spot on Neptune, the first new atmospheric vortex seen in the 21st century."]
 }
     
     render(){
