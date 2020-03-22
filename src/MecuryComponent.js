@@ -62,7 +62,8 @@ class MecuryComponent extends React.Component {
     galleries:["https://solarsystem.nasa.gov/system/resources/detail_files/2266_PIA19216_1280.jpg",
     "https://solarsystem.nasa.gov/system/resources/detail_files/1053_PIA13508.jpg",
     "https://solarsystem.nasa.gov/system/resources/detail_files/956_PIA17409.jpg",
-    "https://solarsystem.nasa.gov/system/resources/detail_files/773_PIA16388_detail.jpg"]
+    "https://solarsystem.nasa.gov/system/resources/detail_files/773_PIA16388_detail.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/772_PIA13508_detail.jpg"]
   }
 
     render(){
