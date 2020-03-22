@@ -4,6 +4,7 @@ import Overview from './Overview'
 import InDepth from './InDepth'
 import BytheNumber from './BytheNumber';
 import Exploration from './Exploration'
+import Galleries from './Galleries'
 
 const { TabPane } = Tabs;
 
@@ -33,6 +34,10 @@ class PlanetDetail extends React.Component {
                 <TabPane tab="Exploration" key="4">
                 <h1>EXPLORATION</h1>
                   <Exploration detail= {this.props.detail}></Exploration>
+                </TabPane>
+                <TabPane tab="Galleries" key="5">
+                <h1>Galleries</h1>
+                  <Galleries detail= {this.props.detail}></Galleries>
                 </TabPane>
           </Tabs>
         )

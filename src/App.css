@@ -187,3 +187,11 @@
   margin-bottom:50px;
   font-size: 20px;
 }
+
+.Galleries {
+  margin-right: 50px;
+  margin-left: 25px;
+  padding:30px;
+  min-width: 350px;
+  display: flex;
+}

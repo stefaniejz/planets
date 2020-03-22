@@ -58,7 +58,11 @@ class MecuryComponent extends React.Component {
     "2008-2009: MESSENGER observes Mercury during three flybys.",
     "2011: MESSENGER begins its orbital mission at Mercury, yielding a treasure trove of images, compositional data and scientific discoveries.",
     "2015: MESSENGER is deliberately crashed into Mercury after expending all its propellant, ending its mission.",
-    "2018: BepiColombo launches with a target date for Mercury orbit insertion of 2025."]
+    "2018: BepiColombo launches with a target date for Mercury orbit insertion of 2025."],
+    galleries:["https://solarsystem.nasa.gov/system/resources/detail_files/2266_PIA19216_1280.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/1053_PIA13508.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/956_PIA17409.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/773_PIA16388_detail.jpg"]
   }
 
     render(){
