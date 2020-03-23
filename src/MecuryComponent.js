@@ -63,7 +63,26 @@ class MecuryComponent extends React.Component {
     "https://solarsystem.nasa.gov/system/resources/detail_files/1053_PIA13508.jpg",
     "https://solarsystem.nasa.gov/system/resources/detail_files/956_PIA17409.jpg",
     "https://solarsystem.nasa.gov/system/resources/detail_files/773_PIA16388_detail.jpg",
-    "https://solarsystem.nasa.gov/system/resources/detail_files/772_PIA13508_detail.jpg"]
+    "https://solarsystem.nasa.gov/system/resources/detail_files/772_PIA13508_detail.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/771_PIA16853.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/770_PIA15202.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/769_PIA16820.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/742_degas_EW0258052721.png",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/531_PIA17386.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/530_PIA18107.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/528_PIA18739.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/526_PIA18950.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/525_PIA19242.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/524_PIA19253.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/523_PIA19282.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/522_PIA19423.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/521_PIA19449.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/443_MercurySouthern1200w.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/442_PIA19410.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/441_HollowsMercury.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/440_UnmaskingMercury1000w.jpg",
+    "https://solarsystem.nasa.gov/system/resources/detail_files/439_MercurySubtleColors1200w.jpg"
+    ]
   }
 
     render(){

@@ -26,7 +26,7 @@ class Galleries extends React.Component {
                     dataSource={this.props.detail.galleries}
                     renderItem={image => (
                     <List.Item>
-                        <Card hoverable  style={{ width: 240}} cover={<img alt="example" src={image} style={{ width: 240, height: 200 }} />}></Card>
+                        <Card hoverable  style={{ width: 300}} cover={<img alt="example" src={image} style={{ width: 300, height: 200 }} />}></Card>
                     </List.Item>
                     )}
                 />}
