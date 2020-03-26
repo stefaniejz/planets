@@ -20,16 +20,18 @@ class Galleries extends React.Component {
     render() {
    
         return(
-            <div className="Galleries"> {
-                <List
-                    grid={{ gutter: 16, column: 4 }}
-                    dataSource={this.props.detail.galleries}
-                    renderItem={image => (
-                    <List.Item>
-                        <Card hoverable  style={{ width: 300}} cover={<img alt="example" src={image} style={{ width: 300, height: 200 }} />}></Card>
-                    </List.Item>
-                    )}
-                />}
+            <div className="Galleries"> 
+              <List
+                grid={{ gutter: 16, column: 4 }}
+                dataSource={this.props.detail.galleries}
+                renderItem={(item, index)=> (
+                <List.Item>
+                    <Card hoverable  style={{ width: 300, margin:30}} cover={<img alt="example" src={item.image} style={{ width: 300, height: 200 }} />}>{item.title}</Card>
+                </List.Item>
+                )}
+            />
+  
+                
             </div>)
     }
 }
