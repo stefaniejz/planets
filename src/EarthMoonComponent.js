@@ -13,6 +13,19 @@ class EarthMoonComponent extends React.Component {
         "https://solarsystem.nasa.gov/system/feature_items/images/60_earthsmoon_carousel_4.jpg",
         "https://solarsystem.nasa.gov/system/feature_items/images/61_earthsmoon_carousel_5.jpg",
         "https://solarsystem.nasa.gov/system/feature_items/images/62_earthsmoon_carousel_3.jpg"],
+        size_and_distance:[],
+        orbit_and_rotation:[],
+        structure:[],
+        formation:[],
+        indepth_description:[],
+        kid_friendly:['Most of the planets in our solar system—and some asteroids—have moons. Earth has one moon. We call it "the Moon" because for a long time it was the only one we knew about. Many languages have beautiful words for Moon. It is "Luna" in Italian, Latin and Spanish, "Lune" in French, "Mond" in German, and "Selene" in Greek.',
+        'Our Moon is like a desert with plains, mountains, and valleys. It also has many craters, holes created when space rocks hit the surface at a high speed. There is no air to breathe on the Moon.',
+        'The Moon travels around the Earth in an oval shaped orbit. Scientists think the Moon was formed long, long ago when Earth crashed into a Mars-sized object.',
+        'We always see the same side of the Moon from Earth. You have to go into space to see the other side.'],
+        surface:[],
+        Magnetosphere:[],
+        moons:[],
+        Potential_for_life:""
     }
 
     render(){
