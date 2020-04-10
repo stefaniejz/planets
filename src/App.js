@@ -17,6 +17,7 @@ import SaturnComponent from "./SaturnComponent"
 import UranusComponent from "./UranusComponent"
 import NeptuneComponent from "./NeptuneComponent"
 import EarthMoonComponent from "./EarthMoonComponent"
+import MarsMoonComponent from "./MarsMoonComponent"
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route exact path={'/uranus'} component={UranusComponent} />
         <Route exact path={'/neptune'} component={NeptuneComponent} />
         <Route exact path={'/earthmoon'} component={EarthMoonComponent} />
+        <Route exact path={'/marsmoon'} component={MarsMoonComponent} />
       </Router>
     </div>
   );
