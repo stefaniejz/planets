@@ -105,7 +105,7 @@ class MecuryComponent extends React.Component {
     title:"Unmasking the Secrets of Mecury"},
     {image:"https://solarsystem.nasa.gov/system/resources/detail_files/439_MercurySubtleColors1200w.jpg",
     title:"Mecury's Subtle Colors"}
-    ],
+    ]
     // galleries_tittle:["Mecury's Caloris Basin",
     // "The Impressive Rays of Hokusai",
     // "Nebula? No, It's the Cat's Eye Crater!",

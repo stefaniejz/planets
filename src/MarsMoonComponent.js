@@ -20,12 +20,30 @@ class MarsMoonComponent extends React.Component {
         surface:[],
         Magnetosphere:[],
         moons:[],
-        Potential_for_life:""
+        Potential_for_life:"",
+        date_of_discovery:"",
+        discovered_by:"",
+        average_orbit_distance:"",
+        mean_orbit_velocity:"",
+        orbit_eccentricity:"",
+        equatorial_inclination:"",
+        equatorial_radius:"",
+        equatorial_circumference:"1",
+        volume:"",
+        density:"",
+        mass:"",
+        surface_area:"",
+        surface_gravity:"",
+        escape_velocity:"",
+        atomospheric_constituents:"",
+        exploration:[],
+        significant_events:[],
+        galleries:[],
     }
 
     render(){
         return(
-        <div className="Mecury">
+        <div className="MarsMoon">
             <MenuBar></MenuBar>
             <div className="Planet-page-img-container">
               <img className="planet-page-img" style={{width:"relative", height:"100vh"}} 
