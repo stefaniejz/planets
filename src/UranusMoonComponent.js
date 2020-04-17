@@ -65,7 +65,15 @@ class UranusMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/259_PIA00141.jpg",
         title:"Miranda"},
         {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/262_Oberon_732.jpg",
-        title:"Oberon"}
+        title:"Oberon"},
+        {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/265_Epsilon732.jpg",
+        title:"Ophelia"},
+        {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/268_Perdita_br.jpg",
+        title:"Perdita"},
+        {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/271_PIA01278-14001.jpg",
+        title:"Portia"},
+        {image:"https://solarsystem.nasa.gov/system/content_pages/main_images/274_an3-1.gif",
+        title:"Prospero"},
     ]
     }
 
