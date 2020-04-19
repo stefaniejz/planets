@@ -58,6 +58,17 @@ class EarthMoonComponent extends React.Component {
         atomospheric_constituents:"",
         exploration:[],
         significant_events:[],
+        galleries:[{image:"https://solarsystem.nasa.gov/system/resources/detail_files/2481_ap11_monument_1200.jpg",
+        title:"Apollo 11 Saturn V Rocket Projected On The Washington Monument"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2480_moon_apollo50moon_1200.jpg",
+        title:"Moonset on the 50th Anniversary of the Apollo 11 Launch"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2478_as11-40-5873_800.jpg",
+        title:"Aldrin on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2474_a11_lro.jpg",
+        title:"Apollo 11 Landing Site"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2464_lonepeakmoon_800c.jpg",
+        title:"Lone Peak Moon"}
+      ]
     }
 
     render(){
