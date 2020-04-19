@@ -78,6 +78,17 @@ class EarthMoonComponent extends React.Component {
         title:"Blue Moon and Jet Over Virginia"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2447_content_BeresheetImpact_1100px.gif",
         title:"Beresheet Moon Impact Site"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2444_piton.jpg",
+        title:"On and Around Mons Piton"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2425_337_moon_venus_1200.jpg",
+        title:"Bright Moon and Crescent Venus"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2424_14860034616_d4400cf692_1280.jpg",
+        title:"Supermoon (2014)"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2423_14696484257_8b141cfe74_o.jpg",
+        title:"Supermoon (2014)"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2422_21769769165_e5c9c1bff8_1280.jpg",
+        title:"Supermoon Lunar Eclipse (2015)"},
+
 
       ]
     }
