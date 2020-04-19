@@ -67,7 +67,18 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2474_a11_lro.jpg",
         title:"Apollo 11 Landing Site"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2464_lonepeakmoon_800c.jpg",
-        title:"Lone Peak Moon"}
+        title:"Lone Peak Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2461_lro_plaskett_1200.jpg",
+        title:"Shadowy Mountains on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2460_lro_nearside_800.jpg",
+        title:"Lunar Near Side"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2459_lro_farside_800.jpg",
+        title:"Lunar Far Side"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2448_Blue_Moon_Airplane_1280.jpg",
+        title:"Blue Moon and Jet Over Virginia"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2447_content_BeresheetImpact_1100px.gif",
+        title:"Beresheet Moon Impact Site"},
+
       ]
     }
 
