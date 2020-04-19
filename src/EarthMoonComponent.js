@@ -41,6 +41,23 @@ class EarthMoonComponent extends React.Component {
         Magnetosphere:["The early Moon may have developed an internal dynamo, the mechanism for generating global magnetic fields for terrestrial planets, but today, the Moon has a very weak magnetic field. The magnetic field here on Earth is many thousands of times stronger than the Moon's magnetic field."],
         moons:["Earth's Moon has no moons of its own."],
         Potential_for_life:"The many missions that have explored the Moon have found no evidence to suggest it has its own living things. However, the Moon could be the site of future colonization by humans. The discovery the Moon harbors water ice, and that the highest concentrations occur within darkened craters at the poles, makes the Moon a little more hospitable for future human colonists.",
+        date_of_discovery:"",
+        discovered_by:"",
+        average_orbit_distance:"",
+        mean_orbit_velocity:"",
+        orbit_eccentricity:"",
+        equatorial_inclination:"",
+        equatorial_radius:"",
+        equatorial_circumference:"1",
+        volume:"",
+        density:"",
+        mass:"",
+        surface_area:"",
+        surface_gravity:"",
+        escape_velocity:"",
+        atomospheric_constituents:"",
+        exploration:[],
+        significant_events:[],
     }
 
     render(){
