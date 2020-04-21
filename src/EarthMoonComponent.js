@@ -98,6 +98,17 @@ class EarthMoonComponent extends React.Component {
         title:"Moon in Utah's Turret Arch"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2416_eesert_moon_tree_1280.jpg",
         title:"Desert Moonset"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2416_eesert_moon_tree_1280.jpg",
+        title:"Desert Moonset"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2415_moon_tree2_1280.jpg",
+        title:"Mountain Moonrise"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2414_moonridge_1280.jpg",
+        title:"Day Moon Ridge"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2413_6838534095_ae20091f7c_1280.jpg",
+        title:"Full Moon Over U.S. Capitol"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2412_9125383113_6c6d2524e9_1280.jpg",
+        title:"2013 Supermoon Over the Washington Monument"},
+
       ]
     }
 
