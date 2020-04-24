@@ -109,7 +109,18 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2412_9125383113_6c6d2524e9_1280.jpg",
         title:"2013 Supermoon Over the Washington Monument"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2411_5541053611_dfbbefe4bb_1280.jpg",
-        title:"2011 Supermoon Over Lincoln Memorial"}
+        title:"2011 Supermoon Over Lincoln Memorial"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2337_as11-44-6549_med.jpg",
+        title:"Apollo 11 View of Moon Limb With Earth on the Horizon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2330_IMG_5704_med.jpg",
+        title:"A Layered Moonrise"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2329_lunar_south_pole_lroc_med.jpg",
+        title:"Illumination Map of the Moon's South Pole"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2300_plato.jpg",
+        title:"Ancient Volcanic Vent Near the Moon's Plato Crater"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2298_IMG_5552_1200.jpg",
+        title:"Earth's Moon and Jupiter's Moons"},
+
 
       ]
     }
