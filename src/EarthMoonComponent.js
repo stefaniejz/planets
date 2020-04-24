@@ -108,6 +108,8 @@ class EarthMoonComponent extends React.Component {
         title:"Full Moon Over U.S. Capitol"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2412_9125383113_6c6d2524e9_1280.jpg",
         title:"2013 Supermoon Over the Washington Monument"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2411_5541053611_dfbbefe4bb_1280.jpg",
+        title:"2011 Supermoon Over Lincoln Memorial"}
 
       ]
     }
