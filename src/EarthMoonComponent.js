@@ -130,6 +130,16 @@ class EarthMoonComponent extends React.Component {
         title:"Von Kármán Crater: Awaiting A Visitor"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2279_as15-88-11894_1280.jpg",
         title:"Memorial to Fallen Astronauts on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2276_venus_moon_jupiter_tree_1200.jpg",
+        title:"Venus, Moon and Jupiter"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2275_venus_moon_mountain_1200.jpg",
+        title:"Venus, Moon and a Bit of Earth"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2265_565736main_M162350671LE_full.jpg",
+        title:"Tycho Crater's Central Peak on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2259_as14-68-9405_1600.jpg",
+        title:"Apollo 14 Astronaut Alan Shepard on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2242_full_%282758x2100%29.jpeg",
+        title:"Earth, Moon and Asteroid Bennu"}
       ]
     }
 
