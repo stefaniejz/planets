@@ -120,8 +120,16 @@ class EarthMoonComponent extends React.Component {
         title:"Ancient Volcanic Vent Near the Moon's Plato Crater"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2298_IMG_5552_1200.jpg",
         title:"Earth's Moon and Jupiter's Moons"},
-
-
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2297_IMG_5580_800.jpg",
+        title:"Moon and Jupiter"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2293_apollo_patches_small.jpg",
+        title:"Apollo Mission Patches"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2292_as08-14-2383.jpg",
+        title:"Apollo 8's Iconic Earthrise"},
+        {image:"http://lroc.sese.asu.edu/ckeditor_assets/pictures/710/content_vk_orth_100m.1100pixel.png",
+        title:"Von Kármán Crater: Awaiting A Visitor"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2279_as15-88-11894_1280.jpg",
+        title:"Memorial to Fallen Astronauts on the Moon"},
       ]
     }
 
