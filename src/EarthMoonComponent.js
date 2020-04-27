@@ -139,7 +139,17 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2259_as14-68-9405_1600.jpg",
         title:"Apollo 14 Astronaut Alan Shepard on the Moon"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/2242_full_%282758x2100%29.jpeg",
-        title:"Earth, Moon and Asteroid Bennu"}
+        title:"Earth, Moon and Asteroid Bennu"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/843_christmas2015fullmoon.jpg",
+        title:"Rare Full Moon on Christmas Day"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/841_iss_limb.jpg",
+        title:"Moon Over Earth"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/840_as11_40_5902_%281%29.jpg",
+        title:"Apollo 11 Buzz Aldrin"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/839_as15-86-11603.jpg",
+        title:"Apollo 15 on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/838_58_GPN-2000-001090_detail.jpg",
+        title:"Moon Framed"},
       ]
     }
 
