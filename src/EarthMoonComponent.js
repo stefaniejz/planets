@@ -160,6 +160,16 @@ class EarthMoonComponent extends React.Component {
         title:"Earth's Moon"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/794_9127440_detail.jpg",
         title:"Apollo 17 Astronaut and United States Flag on Lunar Surface"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/791_610213main_S73-22871_full.jpg",
+        title:"Apollo 17 Extravehicular Activity"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/760_296636main_1241_full_full.jpg",
+        title:"A Scientist on the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/759_as11-40-5878_detail.jpg",
+        title:"Close-up View of Astronaut's Footprint in Lunar Soil"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/757_iss044e020824.jpg",
+        title:"Moon, Venus, Jupiter, Earth Lineup"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/743_k2-c16-ffi-with-earth-cropped.jpg",
+        title:"Earth from 94 Million Miles Away"}
       ]
     }
 
