@@ -150,6 +150,16 @@ class EarthMoonComponent extends React.Component {
         title:"Apollo 15 on the Moon"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/838_58_GPN-2000-001090_detail.jpg",
         title:"Moon Framed"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/821_as12-48-7134_detail.jpg",
+        title:"Apollo 12 and Surveyor 3"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/817_m1145007448lr_oblique_crop_br.jpg",
+        title:"Chang'e Lunar Rover Landing Site"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/816_Apollo_12_crew_732.jpg",
+        title:"Apollo 12 Crew"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/800_PIA00405.jpg",
+        title:"Earth's Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/794_9127440_detail.jpg",
+        title:"Apollo 17 Astronaut and United States Flag on Lunar Surface"},
       ]
     }
 
