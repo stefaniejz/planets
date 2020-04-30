@@ -149,7 +149,7 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/839_as15-86-11603.jpg",
         title:"Apollo 15 on the Moon"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/838_58_GPN-2000-001090_detail.jpg",
-        title:"Moon Framed"},
+        title:"Moon Framed"},ß
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/821_as12-48-7134_detail.jpg",
         title:"Apollo 12 and Surveyor 3"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/817_m1145007448lr_oblique_crop_br.jpg",
@@ -169,7 +169,18 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/757_iss044e020824.jpg",
         title:"Moon, Venus, Jupiter, Earth Lineup"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/743_k2-c16-ffi-with-earth-cropped.jpg",
-        title:"Earth from 94 Million Miles Away"}
+        title:"Earth from 94 Million Miles Away"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/719_earth-moon_navcam1.png",
+        title:"NASA's OSIRIS-REx Captures New Earth-Moon Image"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/715_First_Luna1.jpg",
+        title:"First Close-up of the Far Side of Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/537_KennedyHistoricSpeechCongress1200w.jpg",
+        title:"Kennedy Giving Historic Speech to Congress"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/528_PIA18739.jpg",
+        title:"Lunar Eclipse From Mercury"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/283_NearandFar.jpg",
+        title:"Near and Far"},
+
       ]
     }
 
