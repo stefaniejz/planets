@@ -149,7 +149,7 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/839_as15-86-11603.jpg",
         title:"Apollo 15 on the Moon"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/838_58_GPN-2000-001090_detail.jpg",
-        title:"Moon Framed"},ß
+        title:"Moon Framed"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/821_as12-48-7134_detail.jpg",
         title:"Apollo 12 and Surveyor 3"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/817_m1145007448lr_oblique_crop_br.jpg",
@@ -180,7 +180,16 @@ class EarthMoonComponent extends React.Component {
         title:"Lunar Eclipse From Mercury"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/283_NearandFar.jpg",
         title:"Near and Far"},
-
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/276_LadeeMinotaur1200w.jpg",
+        title:"LADEE's Minotaur V Rocket"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/275_LADEEVibrationTest1200w.jpg",
+        title:"LADEE Vibration Test"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/274_LadeeTest1200w.jpg",
+        title:"LADEE Test"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/273_LadeeFinalInstrument1200w.jpg",
+        title:"LADEE Spacecraft Gets Final Science Instrument Installed"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/272_272_LADEEPreparations_1000.jpg",
+        title:"LADEE Preparations"},
       ]
     }
 
