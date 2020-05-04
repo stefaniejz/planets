@@ -189,7 +189,7 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/273_LadeeFinalInstrument1200w.jpg",
         title:"LADEE Spacecraft Gets Final Science Instrument Installed"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/272_272_LADEEPreparations_1000.jpg",
-        title:"LADEE Preparations"},
+        title:"LADEE Preparations"}
       ]
     }
 
