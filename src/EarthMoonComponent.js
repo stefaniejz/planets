@@ -189,7 +189,27 @@ class EarthMoonComponent extends React.Component {
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/273_LadeeFinalInstrument1200w.jpg",
         title:"LADEE Spacecraft Gets Final Science Instrument Installed"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/272_272_LADEEPreparations_1000.jpg",
-        title:"LADEE Preparations"}
+        title:"LADEE Preparations"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/271_LADEEInfographic.jpg",
+        title:"LADEE Infographic"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/270_frog.jpg",
+        title:"LADEE Frog Photobomb"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/269_LadeeThrusters1200w.jpg",
+        title:"LADEE Fires Thrusters Artist's Concept"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/268_268_LADEEEarthReflection_1000.jpg",
+        title:"LADEE: Earth Reflection"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/267_LADEEConcept.jpg",
+        title:"LADEE (Early Design Concept)"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/266_LadeeBalance1200w.jpg",
+        title:"LADEE Balance Test"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/265_265_LADEEApproachesMoon_1280.jpg",
+        title:"LADEE Approaches the Moon"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/264_LadeeAboveSurface1200w.jpg",
+        title:"LADEE Above the Lunar Surface Artist's Concept"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/263_LadeeLunarSunset1200w.jpg",
+        title:"LADEE Above Lunar Sunset Artist's Concept"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/262_Ladee3DRendering1200w.jpg",
+        title:"LADEE 3D Rendering (Gray Background)"},
       ]
     }
 
