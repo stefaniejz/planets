@@ -210,6 +210,8 @@ class EarthMoonComponent extends React.Component {
         title:"LADEE Above Lunar Sunset Artist's Concept"},
         {image:"https://solarsystem.nasa.gov/system/resources/detail_files/262_Ladee3DRendering1200w.jpg",
         title:"LADEE 3D Rendering (Gray Background)"},
+        {image:"https://solarsystem.nasa.gov/system/resources/detail_files/218_Copernicus1.jpg",
+        title:"Young Moon Rocks"}
       ]
     }
 
